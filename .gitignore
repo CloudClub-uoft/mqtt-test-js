@@ -1,3 +1,5 @@
 p.exe
 node_modules/*
 asd
+.env
+*.env

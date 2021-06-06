@@ -1,5 +1,5 @@
 const mqtt = require('mqtt');
-const mqttClient = mqtt.connect('mqtt://broker.hivemq.com');
+const mqttClient = mqtt.connect('mqtt://localhost');
 
 const queryTopic = 'resolveMyQuery';
 const responseTopic = 'responseFromServer';
